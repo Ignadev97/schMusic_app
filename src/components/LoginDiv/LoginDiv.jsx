@@ -3,7 +3,7 @@ import React from 'react'
 const LoginDiv = () => {
   return (
     <>
-        <div className='bg-black  text-white p-4 flex flex-col text-center font-medium justify-center justify-items-center w-4/12 rounded'>
+        <div className='bg-black  text-white p-4 flex flex-col text-center font-medium justify-center justify-items-center w-4/12 max-w-lg rounded-lg mr-64'>
             <form action="login">
                 <label htmlFor="username" className='block m-2'>
                     <p className='font-bold p-4 inline'>Username</p>
