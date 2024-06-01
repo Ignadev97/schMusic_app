@@ -8,3 +8,28 @@
   background-size: cover;
   background-position: left;
 }
+.bg-img-ajustes {
+  background-image: url('./assets/fondo_ajustes.png');
+  background-size: cover;
+  background-position: left;
+}
+.bg-img-añadir {
+  background-image: url('./assets/fondo_añadir.png');
+  background-size: cover;
+  background-position: left;
+}
+.bg-img-cancionero {
+  background-image: url('./assets/fondo_cancionero.png');
+  background-size: cover;
+  background-position: center;
+}
+.bg-img-miperfil {
+  background-image: url('./assets/fondo_miperfil.png');
+  background-size: 140%;
+  background-position: center;
+}
+.bg-img-playlist {
+  background-image: url('./assets/fondo_playlist.png');
+  background-size: 140%;
+  background-position: center;
+}

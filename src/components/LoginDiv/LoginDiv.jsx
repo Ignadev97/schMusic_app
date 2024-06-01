@@ -7,12 +7,12 @@ const LoginDiv = () => {
             <form action="login">
                 <label htmlFor="username" className='block m-2'>
                     <p className='font-bold p-4 inline'>Username</p>
-                    <input type="text" className='rounded' />
+                    <input type="text" className='rounded text-black' />
                 </label>
                 <br />
                 <label htmlFor="pasword" className='block m-2'>
                     <p className= 'font-bold p-4 inline'>Password</p>
-                    <input type="password" className='rounded' />
+                    <input type="password" className='rounded text-black' />
                 </label>
                 <button className='bg-white font-bold text-black py-2 px-7 m-4 rounded'> Log in </button>
             </form>
