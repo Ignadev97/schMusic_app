@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import fondoPerfil from "../../assets/fondo_miperfil.png";
+import ImgProfile from "../../components/ImgProfile/ImgProfile.jsx";
 
 const ProfilePage = () => {
   return (
@@ -10,7 +10,7 @@ const ProfilePage = () => {
       <div className="flex-1 container mx-auto p-8 bg-red-900">
         <div className="bg-white p-6 rounded-lg shadow-lg px-16 py-10 border">
           <div className="flex items-center">
-            <img src={fondoPerfil} alt="Profile" className="w-24 h-24 rounded-full mr-4 shadow-2xl" />
+            <ImgProfile />
             <div>
               <h1 className="text-2xl font-bold">Nombre de Usuario</h1>
               <p className="text-gray-600">Breve descripción o biografía del usuario.</p>
